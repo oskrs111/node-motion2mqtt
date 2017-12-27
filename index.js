@@ -1,5 +1,4 @@
 var conf = require('./config.js');
-var parseString = require('xml2js').parseString;
 var request = require('request');
 var mqtt = require('mqtt');
 var  _motionState = 'ON';
